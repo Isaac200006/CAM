@@ -49,6 +49,7 @@ if (@!$_SESSION['user']) {
         <hr>
         <!--SHOCASE-->
         <header class="showcase-inicio">
+            <img src="img/inicio.jpg" alt="" width="650" height="350">
             <h2>Bienvenidos a CAM</h2>
             <p>Somos una entidad sin animo de lucro que lo que busca dar soluciones
                 a los problemas de contaminacion que se ven presentes en playas. Nos enfocamos mas que todo

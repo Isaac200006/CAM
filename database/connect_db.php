@@ -1,7 +1,9 @@
 <?php
 
-$mysqli = new MySQLi("localhost", "root", "", "db_cam");
+require('C:\xampp2\htdocs\CAM\global.php');
+
+$mysqli = new MySQLi($host, $user, $password, $name);
 if ($mysqli->connect_errno) {
-	die("Fallo la conexión a MySQL: (" . $mysqli->mysqli_connect_erro()
-		. ") " . $mysqli->mysqli_connect_error());
+	die("Fallo la conexión a MySQL: (" . $mysqli->connect_errno
+		. ") " . $mysqli->connect_errno);
 }

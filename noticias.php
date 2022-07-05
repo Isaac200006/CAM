@@ -110,16 +110,9 @@ if (@!$_SESSION['user']) {
         <section class="social">
             <p>Siguenos CAM</p>
             <div class="links">
-                <a href="#"><i class="fab fa-facebook-f">
-
-                    </i></a>
-                <a href="#"><i class="fab fa-twitter">
-
-                    </i></a>
-
-                <a href="#"><i class="fab fa-instagram">
-
-                    </i></a>
+                <a href="#"><i class="fab fa-facebook-f"> </i></a>
+                <a href="#"><i class="fab fa-twitter"> </i></a>
+                <a href="#"><i class="fab fa-instagram"> </i></a>
             </div>
         </section>
     </div>
